@@ -13,7 +13,7 @@ A React-based interactive quiz application designed to test and improve your kno
 ## Screenshots
 
 ### Quiz Results Page
-![Results Screenshot](spark-quiz/src/results.png)
+![Results Screenshot](spark-quiz/blob/master/src/results.png)
 
 *The results page shows your final score, percentage, and performance breakdown with the option to retake the quiz.*
 
