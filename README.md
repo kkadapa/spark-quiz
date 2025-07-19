@@ -1,6 +1,48 @@
-# Getting Started with Create React App
+# SparkQuiz - Apache Spark Learning Quiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based interactive quiz application designed to test and improve your knowledge of Apache Spark concepts. Built with TypeScript, Material-UI, and modern React practices.
+
+## Features
+
+- **Interactive Quiz Interface**: Answer multiple-choice questions about Apache Spark
+- **Real-time Feedback**: Get immediate feedback on your answers with detailed explanations
+- **Progress Tracking**: See your current score and question progress
+- **Results Page**: View your final score with performance analysis and motivational feedback
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+
+## Screenshots
+
+### Quiz Results Page
+![Quiz Results](https://github.com/yourusername/SparkQuiz/raw/main/screenshots/quiz-results.png)
+
+*The results page shows your final score, percentage, and performance breakdown with the option to retake the quiz.*
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/SparkQuiz.git
+   cd SparkQuiz/spark-quiz
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
 ## Available Scripts
 
@@ -39,8 +81,46 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Technologies Used
+
+- **React 18** - Frontend framework
+- **TypeScript** - Type-safe JavaScript
+- **Material-UI (MUI)** - UI component library
+- **Create React App** - Build tool and development environment
+
+## Project Structure
+
+```
+spark-quiz/
+├── src/
+│   ├── components/
+│   │   ├── Quiz.tsx          # Main quiz component
+│   │   └── Results.tsx       # Results page component
+│   ├── data/
+│   │   └── sparkQuestions.ts # Quiz questions and answers
+│   ├── types/
+│   │   └── quiz.ts          # TypeScript type definitions
+│   └── App.tsx              # Main application component
+└── README.md
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To learn more about the technologies used:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React documentation](https://reactjs.org/)
+- [TypeScript documentation](https://www.typescriptlang.org/)
+- [Material-UI documentation](https://mui.com/)
+- [Apache Spark documentation](https://spark.apache.org/docs/latest/)
